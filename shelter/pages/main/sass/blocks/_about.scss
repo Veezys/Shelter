@@ -1,0 +1,31 @@
+.about {
+	padding: 80px 0 100px 0;
+	margin: 0 auto;
+	&__block {
+		display:flex;
+		grid-template-columns: 300px 400px;
+		grid-column-gap: 120px;
+	}
+	&__text {
+		margin-top: 14px;
+	}
+	&__title {
+		width: 370px;
+		font-family: 'Georgia';
+		letter-spacing: 0.06em;
+		color: #545454;
+		font-weight: 400;
+		font-size: 35px;
+		line-height: 130%;
+	}
+	&__descr {
+		font-family: 'Arial';
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 160%;
+		color: #4C4C4C;
+		p {
+			margin-top: 25px;
+		}
+	}
+}

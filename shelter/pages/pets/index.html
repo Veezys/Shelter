@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__block">
+			<div class="header__logo">
+				<h1 class="header__logo-title"><a href="../../index.html">Cozy House</a></h1>
+				<p class="header__logo-descr">Shelter for pets in Boston</p>
+			</div>
+			<nav class="header__nav">
+				<div class="header__nav__item"><a class="header__nav__link"  href="../../index.html">About the shelter</a></div>
+				<div class="header__nav__item" id="nav_friends"><a class="header__nav__link header__nav__link-active"  href="#">Our pets</a></div>
+				<div class="header__nav__item"><a class="header__nav__link"  href="../../index.html#help">Help the shelter</a></div>
+				<div class="header__nav__item" id="nav_contact"><a class="header__nav__link"  href="#footer">Contacts</a></div>
+			</nav> 
+			<div class="header__hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+
+	<section class="friends">
+		<h1 class="friends__title">Our friends who <br>are looking for a house</h1>
+		<div class="friends__slider">
+			<div class="friends__item friends__first" id="Katrine">
+				<img src="../../assets/image/pets-katrine.png" alt="Katrine" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Katrine</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__first" id="Jennifer">
+				<img src="../../assets/image/pets-jennifer.png" alt="Jennifer" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Jennifer</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__first" id="Woody">
+				<img src="../../assets/image/pets-woody.png" alt="Woody" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Woody</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__second" id="Sophia">
+				<img src="../../assets/image/pets-sophia.png" alt="Sophia" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Sophia</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__second" id="Timmy">
+				<img src="../../assets/image/pets-timmy.png" alt="Timmy" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Timmy</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__second" id="Charly">
+				<img src="../../assets/image/pets-charly.png" alt="Charly" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Charly</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__third" id="Scarlett">
+				<img src="../../assets/image/pets-scarlet.png" alt="Scarlett" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Scarlett</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+			<div class="friends__item friends__third" id="Freddie">
+				<img src="../../assets/image/pets-freddie.png" alt="freddie" class="friends__item-img">
+				<div class="friends__bot">
+					<div class="friends__item-name">Freddie</div>
+					<button class="friends__item-btn">Learn more</button>
+				</div>
+			</div>
+		</div>
+		<div class="friends__pagination">
+			<div data-disabled class="friends__pagination-left friends__pagination-disabled" id="left_d">>></div>
+			<div class="friends__pagination-left friends__pagination-disabled" id="left_s">></div>
+			<div class="friends__pagination-page" id="number">1</div>
+			<div class="friends__pagination-right" id="right_s">></div>
+			<div class="friends__pagination-right" id="right_d">>></div>
+		</div>
+	</section>
+
+	<footer  id="footer" class="footer">
+		<div class="footer__block">
+			<div class="footer__item">
+				<h1 class="footer__title">For questions and suggestions</h1>
+				<a href="mailto:epam@academy.ru" class="footer__contact">
+					<img src="../../assets/icons/footer/mail.png" alt="email" class="footer__contact-img">
+					<div class="footer__contact-text">email@shelter.com</div>
+				</a>
+				<a href="tel:+136745677554" class="footer__contact">
+					<img src="../../assets/icons/footer/phone.png" alt="phone" class="footer__contact-img">
+					<div class="footer__contact-text">+13 674 567 75 54</div>
+				</a>
+			</div>
+			<d class="footer__item">
+				<h1 class="footer__title footer__title-location">We are waiting for your visit</h1>
+				<a  href="https://www.google.ru/maps/place/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C/@55.7856306,49.121861,13z/data=!4m5!3m4!1s0x415ead219941ae53:0x5b0126a895b9ce7d!8m2!3d55.7993562!4d49.1059989?hl=ru" class="footer__contact footer__location">
+					<img src="../../assets/icons/footer/pin.png" alt="pin" class="footer__contact-img">
+					<div class="footer__contact-text">1 Central Street, Boston (entrance from the store)</div>
+				</a>
+				<a href="https://www.google.ru/maps/place/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C/@55.7856306,49.121861,13z/data=!4m5!3m4!1s0x415ead219941ae53:0x5b0126a895b9ce7d!8m2!3d55.7993562!4d49.1059989?hl=ru" class="footer__contact footer__location">
+					<img src="../../assets/icons/footer/pin.png" alt="pin" class="footer__contact-img">
+					<div class="footer__contact-text">18 South Park, London </div>
+				</a>
+			</d>
+			<div class="footer__picture">
+				<img src="../../assets/image/footer-puppy.png" alt="puppy">
+			</div>
+		</div>
+	</footer>
+
+	<div class="overlay">
+		<div class="modal">
+			<div ><img src="" alt="card" class="modal__img"></div>
+			<div class="modal__about">
+				<div class="modal__close">&times;</div>
+				<h1 class="modal__title"></h1>
+				<h2 class="modal__subtitle"></h2>
+				<p class="modal__descr"></p>
+				<ul class="modal__list">
+					<li class="modal__item" id="age"><span>Age:</span></li>
+					<li class="modal__item" id="inocul"><span>Inoculations:</span></li>
+					<li class="modal__item" id="diseas"><span>Diseases:</span></li>
+					<li class="modal__item" id="parasit"><span>Parasites</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="shadow">
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

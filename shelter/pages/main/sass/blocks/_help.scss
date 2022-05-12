@@ -1,0 +1,39 @@
+.help {
+	padding: 80px 127px 100px 127px;
+	&__title {
+		width: 308px;
+		text-align: center;
+		margin: 0 auto;
+		color: #545454;
+		font-weight: 400;
+		font-family: 'Georgia';
+		line-height: 130%;
+		font-size: 35px;
+	}
+	&__block {
+		width: 1026px;
+		margin: 0 auto;
+		&-top {
+			margin-top: 60px;
+			height: 287px;
+			width: 1038px;
+			display: flex;
+			flex-wrap: wrap;
+			column-gap: 120px;
+			row-gap: 50px;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+		}
+	}
+	&__item-text {
+		margin-top: 30px;
+		font-family: 'Georgia';
+		font-weight: 400;
+		font-size: 20px;
+		font-size: 20px;
+		letter-spacing: 0.06em;
+		color: #545454;
+	}
+}

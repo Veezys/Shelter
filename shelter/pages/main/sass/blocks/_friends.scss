@@ -1,0 +1,121 @@
+.friends {
+	padding: 80px 40px 100px 40px;
+	background-color: #F6F6F6;
+	&__container {
+		position: relative;
+		width: 990px;
+		margin: 0 auto;
+	}
+	&__title {
+		width: 400px;
+		text-align: center;
+		margin: 0 auto;
+		color: #545454;
+		letter-spacing: 0.06em;
+		font-weight: 400;
+		font-family: 'Georgia';
+		line-height: 130%;
+		font-size: 35px;
+	}
+	&__slider {
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		background-color: #FAFAFA;
+		&-name {
+			margin-top: 30px;
+			text-align: center;
+			letter-spacing: 0.06em;
+			font-family: 'Georgia';
+			font-weight: 400;
+			font-size: 20px;
+			color: #545454;
+		}
+		&-btn {
+			width: 187px;
+			height: 52px;
+			margin: 30px 0 30px 41px;
+			font-family: 'Georgia';
+			font-weight: 400;
+			font-size: 17px;
+			letter-spacing: 0.06em;
+			color: #292929;
+			text-align: center;
+			border: 2px solid #F1CDB3;
+			box-sizing: border-box;
+			border-radius: 100px;
+			background-color: #FAFAFA;
+			transition: all 0.5s;
+			&:hover {
+				background-color: $main-color;
+			}
+		}
+	}
+	&__bot {
+		&:hover {
+			background-color: #fff;
+			.friends__item-btn {
+				background-color: $main-color;
+			}
+		}
+	}
+	&__btn {
+		display: block;
+		margin: 60px auto;
+		width: 260px;
+		height: 52px;
+		background: #F1CDB3;
+		border-radius: 100px;
+		letter-spacing: 0.06em;
+		font-family: 'Georgia';
+		font-weight: 400;
+		font-size: 17px;
+		border: none;
+		transition: all 0.6s;
+		a {
+			text-decoration: none;
+			color: #292929;
+		}
+		&:hover {
+			box-shadow: 3px 3px 50px #000;
+		}
+	}
+	&__left {
+		position: absolute;
+		top: 50%;
+		left: -90px;
+		transition: all 0.6s;
+		&:hover {
+			background-color: $main-color;
+			border-radius: 100%;
+		}
+	}
+	&__right {
+		position: absolute;
+		top: 50%;
+		right: -90px;
+		transition: all 0.6s;
+		&:hover {
+			background-color: $main-color;
+			border-radius: 100%;
+		}
+	}
+	&__second {
+		transition: 0.7s all;
+		display: none;
+	}
+	&__third {
+		transition: 0.7s all;
+		display: none;
+	}
+	&__first {
+		transition: 0.7s all;
+		display: block;
+	}
+	&__Jenn {
+		transition: 0.7s all;
+		display: block;
+	}
+}

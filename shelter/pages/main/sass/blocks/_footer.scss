@@ -1,0 +1,46 @@
+.footer {
+	height: 350px;
+	background: url('../../../assets/image/footer-gradient-background.jpg') center/cover no-repeat;
+	&__block {
+		width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		padding: 56px 40px 0 40px;
+		justify-content: space-between;
+	}
+	&__title {
+		width: 280px;
+		color: #FFFFFF;
+		font-family: 'Georgia';
+		font-weight: 400;
+		font-size: 35px;
+		letter-spacing: 0.06em;
+		line-height: 130%;
+	}
+	&__contact {
+		margin-top: 45px;
+		display: flex;
+		align-items: center;
+		color: $main-color;
+		font-family: 'Georgia';
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 115%;
+		text-decoration: none;
+		&-text {
+			width: 260px;
+		}
+		&-img {
+			margin-right: 20px;
+			height: 100%;
+		}
+		a {
+			color: $main-color;
+			text-decoration: none;
+		}
+
+	}
+	&__picture {
+		margin-top: -20px;
+	}
+}

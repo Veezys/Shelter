@@ -1,0 +1,36 @@
+@import "base/variabels";
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 850px;
+	margin: 0 auto;
+}
+.shadow {
+	position: fixed;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	margin-left: 0;
+	background: rgba(41, 41, 41, 0.6);
+	transition: 0.7s all;
+	z-index: 0;
+	display: none;
+}
+
+@import "blocks/promo";
+@import "blocks/about";
+@import "blocks/friends";
+@import "blocks/help";
+@import "blocks/donation";
+@import "blocks/footer";
+@import "base/media";
+@import "blocks/modal";

@@ -1,0 +1,101 @@
+.promo {
+	background:  url("../../../assets/image/start-screen-gradient-background.jpg") center/cover no-repeat;
+	height: 908px;
+	&__con {
+		padding: 60px 40px 0 40px;
+		width: 1200px;
+		margin: 0 auto;
+	}
+	&__header {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo {
+		&-title {
+		color: $main-color;
+		font-family: 'Georgia';
+		letter-spacing: 0.06em;
+		font-size: 32px;
+		font-weight: 400;
+		text-decoration: none;
+		}
+		&-descr {
+			font-size: 13px;
+			letter-spacing: 0.1em;
+			color: #fff;
+			text-align: center;
+			font-weight: 400;
+			font-family: 'Arial';
+			font-style: normal;
+		}
+	}
+	&__link {
+		color: #292929;
+		text-decoration: none;
+	}
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: #CDCDCD;
+		&__link {
+			text-decoration: none;
+			color: #CDCDCD;
+			font-weight: 400;
+			font-size: 15px;
+			font-family: 'Arial';
+			font-style: normal;
+			&:hover {
+				color: #FAFAFA;
+			}
+			&-active {
+				color: #FAFAFA;
+				border-bottom: 3px solid $main-color;
+			}
+		}
+		&__item {
+			margin-right: 35px;
+		}
+	}
+	&__block {
+		margin-top: 223px;
+		display: flex;
+		justify-content: space-between;
+		img {
+			margin-top: -155px;
+		}
+	}
+	&__title {
+		width: 310x;
+		font-family: 'Georgia';
+		color: #FFFFFF;
+		font-weight: 400;
+		font-size: 44px;
+		line-height: 130%;
+	}
+	&__descr {
+		width: 460px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 160%;
+		margin-top: 42px;
+		color: #CDCDCD;
+	}
+	&__btn {
+		margin-top: 42px;
+		width: 207px;
+		height: 52px;
+		border-radius: 100px;
+		background-color: #F1CDB3;
+		letter-spacing: 0.06em;
+		color: #292929;
+		font-family: 'Georgia';
+		font-weight: 400;
+		font-size: 17px;
+		border: none;
+		transition: all 0.6s;
+		&:hover {
+			box-shadow: 3px 3px 20px $main-color;
+		}
+	}
+}
